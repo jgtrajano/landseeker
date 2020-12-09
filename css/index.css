@@ -34,3 +34,23 @@ header nav {
 header nav ul li{
     margin: 0 20px;
 }
+
+@media(min-width:769px){
+    nav img {
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    nav ul {
+        display: none;
+    }
+    nav img{
+        width: 40px;
+        margin-top: 12px;
+        margin-right: 10px;
+    }
+    header img{
+        width: 60px;
+    }
+}
